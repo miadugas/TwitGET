@@ -1,0 +1,49 @@
+
+
+.header {
+    padding: 50px;
+    background: royalblue;
+    font-size: 34px;
+    text-align: center;font-weight: bolder;
+    border-bottom: 5px rgb(51, 84, 182) solid;
+}
+
+.icon {
+    width: 50px;
+    padding-right: 20px;
+}
+
+.foot-icon {
+    position: relative;
+    width: 50px;
+    padding: 20px;
+    /* top: -15px; */
+}
+
+.containerHead {
+    margin-top: 40px;
+    padding: 10px;
+    background: #999999;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footerBtn {
+    padding-right: 30px;
+    margin: 15px;
+}
+
+.input{
+    width: 100%;
+    margin: 20px;
+}
+
+footer {
+    padding-top: 20px;
+    text-align: center;
+}
+
+#topArticles {
+    padding: 20px;
+    border: 5px solid #888888;
+}
