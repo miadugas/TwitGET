@@ -1,0 +1,22 @@
+{
+  "name": "twitget",
+  "version": "1.0.0",
+  "description": "Twitter API Client for node",
+  "main": "config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miadugas/TwitGET.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miadugas/TwitGET/issues"
+  },
+  "homepage": "https://github.com/miadugas/TwitGET#readme",
+  "dependencies": {
+    "twit": "^2.2.11"
+  }
+}

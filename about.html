@@ -1,0 +1,169 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document | Welcome</title>
+    <link rel="stylesheet" 
+    href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+
+  <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+
+    <!-- Start Top Bar -->
+    <!-- <div class="top-bar">
+      <div class="top-bar-left">
+        <img class="icon" src="Copy of Untitled.png">
+        <ul class="menu align-center">
+          
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">GitHub Repo</a></li>
+        </ul>
+      </div>
+    </div> -->
+    <nav class="top-bar topbar-responsive">
+      
+      <div id="topbar-responsive" class="topbar-responsive-links">
+        <div class="top-bar-right">
+          <ul class="menu simple vertical medium-horizontal">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About TwitGET</a></li>
+            <li><a href="https://github.com/miadugas/TwitGET">Github Repo</a></li>
+            <!-- <li><a href="#">Works</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Contact</a></li> -->
+            <!-- <li>
+              <button type="button" class="button hollow topbar-responsive-button">Categories</button>
+            </li> -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    
+    <!-- End Top Bar -->
+
+    <div class="callout large primary">
+      <div class="row column text-center">
+        <img class="icon" src="Copy of Untitled.png">
+      </div>
+    </div>
+
+    <!-- We can now combine rows and columns when there's only one column in that row -->
+    <div class="row medium-8 large-7 columns">
+      <div class="blog-post">
+
+        <div class="container">
+          <div class="row containerHead" style="text-align: center;">
+            Search Parameters
+          </div>
+          <div class="row">
+            <input class="input mandatory" placeholder="Tweets containing a term or @user"  id="searchTerm" type="text" />
+          </div>
+
+          <div class="row">
+            <input class="input mandatory" placeholder="Geo Location" id="searchTerm2" type="text" />
+          </div>
+
+          <div class="row">
+            <input class="input mandatory" placeholder="How Many Records? (max 100,000 per day)" id="numRecords" type="number" />
+          </div>
+
+          
+          <!-- <div class="row">
+            <input class="input mandatory" placeholder="Copy-How Many Records? (max 10)" id="numRecords-copy" type="number" />
+          </div> -->
+
+          
+          <div class="row">
+            <input class="input optional" placeholder="Date Since (ex: July 11, 2019 - optional)" id="startYear" type="text" />
+          </div>
+
+          <!-- <div class="row">
+            <input class="input optional" placeholder="End Year (optional)" id="endYear" type="text" />
+          </div> -->
+<br>
+          <div class="row button-group-option"  style="text-align: center;" data-grouptype="OR">
+            <button id="search" class="footerBtn button success radius">
+              Search</button>
+            <button class="footerBtn button primary radius">Clear Results</button> 
+          </div>
+
+          <!-- <div class="button-group-option" data-grouptype="OR">
+            <button id="search" class="footerBtn button success radius">
+              Search</button>
+            <button class="footerBtn button primary radius">Clear Results</button>
+          </div> -->
+        <!-- <h3>Awesome blog post title <small>3/6/2015</small></h3>
+        <img class="thumbnail" src="https://placehold.it/850x350">
+        <p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.</p> -->
+        <!-- <div class="callout">
+          <ul class="menu simple">
+            <li><a href="#">Author: Mike Mikers</a></li>
+            <li><a href="#">Comments: 3</a></li>
+          </ul>
+        </div> -->
+      </div>
+
+      <!-- <div class="blog-post">
+        <h3>Awesome blog post title <small>3/6/2015</small></h3>
+        <img class="thumbnail" src="https://placehold.it/850x350">
+        <p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.</p>
+        <div class="callout">
+          <ul class="menu simple">
+            <li><a href="#">Author: Mike Mikers</a></li>
+            <li><a href="#">Comments: 3</a></li>
+          </ul>
+        </div>
+      </div> -->
+
+      <!-- <div class="blog-post">
+        <h3>Awesome blog post title <small>3/6/2015</small></h3>
+        <img class="thumbnail" src="https://placehold.it/850x350">
+        <p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.</p>
+        <div class="callout">
+          <ul class="menu simple">
+            <li><a href="#">Author: Mike Mikers</a></li>
+            <li><a href="#">Comments: 3</a></li>
+          </ul>
+        </div>
+      </div> -->
+
+      <!-- <div class="blog-post">
+        <h3>Awesome blog post title <small>3/6/2015</small></h3>
+        <img class="thumbnail" src="https://placehold.it/850x350">
+        <p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.</p>
+        <div class="callout">
+          <ul class="menu simple">
+            <li><a href="#">Author: Mike Mikers</a></li>
+            <li><a href="#">Comments: 3</a></li>
+          </ul>
+        </div>
+      </div> -->
+    </div>
+    <div class="container">
+      <div class="row containerHead" style="text-align: center;">Results</div>
+      <div class="row" id="topArticles"></div>
+  </div>
+
+  <footer>Made with lots of <img class="icon" src="heart.png"> </footer>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
+
+
+
